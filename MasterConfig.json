@@ -1,20 +1,627 @@
  [ 
-   {
-  "Category": "P-led",
-  "Parent category": "Vision, Capability, Maturity across the Portfolio (15pts)",
-  "Question": "Self Sufficient in delivering a business outcomes focused vision for customer projects?",
-  "Column Name for Views": "Business Outcomes",
-  "SchemaName": "mssh_pledbusinessoutcomes",
-  "ResponseType": "Qualitative Choice ",
-  "Max Score": "5",
-  "Actual Score": "",
-  "options": {
-    "A+": 5.0,
-    "A": 4.0,
-    "B": 3.0,
-    "C": 2.0,
-    "D": 1.0,
-    "E": 0.0
-  }
-}
+    {
+    "Category": "P-led",
+    "Parent category": "Vision, Capability, Maturity across the Portfolio (15pts)",
+    "Question": "Self Sufficient in delivering a business outcomes focused vision for customer projects?",
+    "Column Name for Views": "Business Outcomes",
+    "SchemaName": "mssh_PLedBusinessOutcomes",
+    "ResponseType": "Qualitative Choice ",
+    "Max Score": "5",
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Vision, Capability, Maturity across the Portfolio (15pts)",
+    "Question": "Dependable in driving successful transformation?",
+    "Column Name for Views": "Driving Transformation",
+    "SchemaName": "mssh_PLedDrivingTransformation",
+    "ResponseType": "Qualitative Choice ",
+    "Max Score": "5",
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Vision, Capability, Maturity across the Portfolio (15pts)",
+    "Question": "Drives Adoption of most product capabilities including Agents to maximize the value to customer?",
+    "Column Name for Views": "Articulating Vision",
+    "SchemaName": "mssh_PLedArticulatingVision",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": "5",
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Vision, Capability, Maturity across the Portfolio (15pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Vision, Capability, Maturity Notes",
+    "SchemaName": "mssh_PLedVisionCapabilityMaturityNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""  
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "FastTrack Portfolio Engagement (15pts)",
+    "Question": "Does the CoE  Proactively engage with FT regularly on Architeture and product guidance?",
+    "Column Name for Views": "Engage On Arch+Prod",
+    "SchemaName": "mssh_PLedEngageOnArchProd",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "FastTrack Portfolio Engagement (15pts)",
+    "Question": "Regular Quarterly Partner Leadership connect?",
+    "Column Name for Views": "Regular LT Connect",
+    "SchemaName": "mssh_PLedRegularLTConnect",
+    "ResponseType": "Yes/No",
+    "Max Score": 3,
+    "Actual Score": "",
+    "options": {
+      "Yes": 3.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "FastTrack Portfolio Engagement (15pts)",
+    "Question": "Effective at raising high-quality architectural and product topics to mitigate project risks?",
+    "Column Name for Views": "Topic Quality",
+    "SchemaName": "mssh_PLedTopicQuality",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "FastTrack Portfolio Engagement (15pts)",
+    "Question": "Is there a consistent Core CoE Team?",
+    "Column Name for Views": "CoE Team",
+    "SchemaName": "mssh_PLedCoETeam",
+    "ResponseType": "Yes/No",
+    "Max Score": 2,
+    "Actual Score": "",
+    "options": {
+      "Yes": 2.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "FastTrack Portfolio Engagement (15pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Engagement Notes",
+    "SchemaName": "mssh_PLedEngagementNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Solution Approach aligned toSuccess by Design (SbD) Principles (25pts)",
+    "Question": "Does the partner focus on early discovery of risks and issues through SBR to prevent late-stage redesigns and escalations?",
+    "Column Name for Views": "Risk Discovery",
+    "SchemaName": "mssh_PLedRiskDiscovery",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Solution Approach aligned toSuccess by Design (SbD) Principles (25pts)",
+    "Question": "Is the partner adopting performance best practices, perf reviews and perf testing designing future-ready scalable solutions?",
+    "Column Name for Views": "Performance Practices",
+    "SchemaName": "mssh_PLedPerformancePractices",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Solution Approach aligned toSuccess by Design (SbD) Principles (25pts)",
+    "Question": "Is the partner effective in cutover planning, go-live preparation, and ensuring operational readiness?",
+    "Column Name for Views": "Go-Live Prep",
+    "SchemaName": "mssh_PLedGo-LivePrep",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": "5",
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Solution Approach aligned toSuccess by Design (SbD) Principles (25pts)",
+    "Question": "Is the partner leveraging SMEs with deep app expertise, best practices, and product knowledge to drive project success?",
+    "Column Name for Views": "SME Engagement",
+    "SchemaName": "mssh_PLedSMEEngagement",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Solution Approach aligned toSuccess by Design (SbD) Principles (25pts)",
+    "Question": "Is the partner leveraging product-specific workshops and FastTrack guidance to adopt the latest capabilities?",
+    "Column Name for Views": "AppWorkshops",
+    "SchemaName": "mssh_PLedAppWorkshops",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Solution Approach aligned toSuccess by Design (SbD) Principles (25pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Solution Approach Notes",
+    "SchemaName": "mssh_PLedSolutionApproachNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Portfolio Operational Execution (25pts)",
+    "Question": "Are projects onboarded timely during the initiate phase, before build starts?",
+    "Column Name for Views": "Early Onboarding",
+    "SchemaName": "mssh_PLedEarlyOnboarding",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 4,
+    "Actual Score": "",
+    "options": {
+      "A+": 4.0,
+      "A": 3.2,
+      "B": 2.4,
+      "C": 1.6,
+      "D": 0.8,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Portfolio Operational Execution (25pts)",
+    "Question": "Does the partner proactively mitigate identified risks?",
+    "Column Name for Views": "Mitigates Risks",
+    "SchemaName": "mssh_PLedMitigatesRisks",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Portfolio Operational Execution (25pts)",
+    "Question": "Does the Partner Consume and act on Telemetry Insights?",
+    "Column Name for Views": "Consumes Telemetry",
+    "SchemaName": "mssh_PLedConsumesTelemetry",
+    "ResponseType": "Yes/No",
+    "Max Score": 3,
+    "Actual Score": "",
+    "options": {
+      "Yes": 3.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Portfolio Operational Execution (25pts)",
+    "Question": "Does the Partner consume and act on Implementation Guidance?",
+    "Column Name for Views": "Consumes Guidance",
+    "SchemaName": "mssh_PLedConsumesGuidance",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 2,
+    "Actual Score": "",
+    "options": {
+      "A+": 2.0,
+      "A": 1.6,
+      "B": 1.2,
+      "C": 0.8,
+      "D": 0.4,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Portfolio Operational Execution (25pts)",
+    "Question": "Are Portfolio escalations well managed in alignment with the FastTrack Solution Architect?",
+    "Column Name for Views": "Escalation Mgt",
+    "SchemaName": "mssh_PLedEscalationMgt",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "PLed",
+    "Parent category": "Portfolio Operational Execution (25pts)",
+    "Question": "% of Projects with Profiles of Acceptable Quality",
+    "Column Name for Views": "Profiling",
+    "SchemaName": "mssh_PLedProfiling",
+    "ResponseType": "Automatic",
+    "Max Score": 4,
+    "Actual Score": "",
+    "options": {
+      "100%<>90%": 4.0,
+      "89%<>75%": 3.5,
+      "74%<>50%": 3.0,
+      "49%<>25%": 2.0,
+      "24%<>10%": 1.0,
+      "9%<>0%": 0.0
+
+    }
+  },
+  {
+   "Category": "PLed",
+    "Parent category": "Portfolio Operational Execution (25pts)",
+    "Question": "% of Projects with defined Delivery Teams",
+    "Column Name for Views": "Delivery Teams",
+    "SchemaName": "mssh_PLedDeliveryTeams",
+    "ResponseType": "Automatic",
+    "Max Score": 2,
+    "Actual Score": "",
+    "options": {
+      "100%<>75%": 2.0,
+       "74%<>50%": 1.0,
+      "49%<>0%": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Portfolio Operational Execution (25pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Execution Notes",
+    "SchemaName": "mssh_PLedExecutionNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Product Strategy Alignment (20pts)",
+    "Question": "Up to date on the Product offerings and adopting the latest in Projects? ",
+    "Column Name for Views": "Current Expertise",
+    "SchemaName": "mssh_PLedCurrentExpertise",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Product Strategy Alignment (20pts)",
+    "Question": "Aligns on Product Change Management, Deprecations, Licensing enforcements etc?",
+    "Column Name for Views": "Aligned to Product",
+    "SchemaName": "mssh_PLedAlignedtoProduct",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Product Strategy Alignment (20pts)",
+    "Question": "Adoption of 1st Party AI agents /Custom MCS Agents in projects? ",
+    "Column Name for Views": "AI Adoption",
+    "SchemaName": "mssh_PLedAIAdoption",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Product Strategy Alignment (20pts)",
+    "Question": "Participation in Product Preview Programs?  ",
+    "Column Name for Views": "Previews",
+    "SchemaName": "mssh_PLedPreviews",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "P-led",
+    "Parent category": "Product Strategy Alignment (20pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Product Strategy Notes",
+    "SchemaName": "mssh_PLedProductStrategyNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Active CoE Oversight for all projects (50pts)",
+    "Question": "Does the Partner CoE engage all regional projects through a defined model at key milestones, with clear channels for ad-hoc guidance and evidence of processes (e.g. meetings, topic escalation, CoE awareness of milestones and issues)?",
+    "Column Name for Views": "Internal Engagement",
+    "SchemaName": "mssh_CoEInternalEngagement",
+    "ResponseType": "Qualitative Choice ",
+    "Max Score": "25",
+    "Actual Score": "",
+    "options": {
+      "A+": 25.0,
+      "A": 20.0,
+      "B": 15.0,
+      "C": 10.0,
+      "D": 5.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Active CoE Oversight for all projects (50pts)",
+    "Question": "Does the Partner CoE embed SBD principles into its delivery methodology and ensure project teams adopt reviews, consume guidance, and use telemetry to de-risk projects, with evidence of these practices across all regions?",
+    "Column Name for Views": "SBD Integration",
+    "SchemaName": "mssh_CoESBDIntegration",
+    "ResponseType": "Qualitative Choice ",
+    "Max Score": "20",
+    "Actual Score": "",
+    "options": {
+      "A+": 20.0,
+      "A": 16.0,
+      "B": 12.0,
+      "C": 8.0,
+      "D": 4.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Active CoE Oversight for all projects (50pts)",
+    "Question": "Does the Partner assign CoE members to all active projects to ensure consistent engagement and track their oversight across projects?",
+    "Column Name for Views": "Oversight Tracking",
+    "SchemaName": "mssh_CoEOversightTracking",
+    "ResponseType": "Qualitative Choice ",
+    "Max Score": "5",
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Active CoE Oversight for all projects (50pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Oversight Notes",
+    "SchemaName": "mssh_CoEOversightNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Executive sponsorship (10pts)",
+    "Question": "Does partner executive leadership provide strong sponsorship for the CoE, understand its value, track its impact on delivery outcomes, and allocate sufficient capacity and support for effective operation?",
+    "Column Name for Views": "Exec. Sponsorship",
+    "SchemaName": "mssh_CoEExecSponsorship",
+    "ResponseType": "Yes/No",
+    "Max Score": "10",
+    "Actual Score": "",
+    "options": {
+      "Yes": 10.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Executive sponsorship (10pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Exec. Sponsor Notes",
+    "SchemaName": "mssh_CoEExecSponsorNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Regional coverage (10pts)",
+    "Question": "Does the CoE provide effective regional coverage with active engagement, guidance, and oversight across key geographies such as Americas, EMEA, and APAC?",
+    "Column Name for Views": "Geo Coverage",
+    "SchemaName": "mssh_CoEGeoCoverage",
+    "ResponseType": "Yes/No",
+    "Max Score": "10",
+    "Actual Score": "",
+    "options": {
+      "Yes": 10.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Regional coverage (10pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Geo Coverage Notes",
+    "SchemaName": "mssh_CoEGeoCoverageNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Contribution to Microsoft Evidence program(10pts)",
+    "Question": "Has the Partner contributed to Microsoft\u2019s Customer Evidence program in the past 12 months with at least two published customer stories and customer participation in two analyst engagements?",
+    "Column Name for Views": "Cust. Evidence",
+    "SchemaName": "mssh_CoECustEvidence",
+    "ResponseType": "Yes/No",
+    "Max Score": "20",
+    "Actual Score": "",
+    "options": {
+      "Yes": 20.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Contribution to Microsoft Evidence program(10pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Cust. Evidence Notes",
+    "SchemaName": "mssh_CoECustEvidenceNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Strategic engagement with FastTrack and Product Group (10pts)",
+    "Question": "Has the Partner engaged strategically with FastTrack and the Product Group through forums such as Focus Groups, Bootcamps, and PM Roundtables, demonstrating active participation, meaningful feedback, and follow-through on actions?",
+    "Column Name for Views": "Strategic Engagement",
+    "SchemaName": "mssh_CoEStrategicEngagement",
+    "ResponseType": "Qualitative Choice ",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Strategic engagement with FastTrack and Product Group (10pts)",
+    "Question": "Does the CoE participate in Pulse feedback at least quarterly and come prepared with structured feedback and customer evidence?",
+    "Column Name for Views": "Pulse Feedback",
+    "SchemaName": "mssh_CoEPulseFeedback",
+    "ResponseType": "Yes/No",
+    "Max Score": 5,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "CoE",
+    "Parent category": "Strategic engagement with FastTrack and Product Group (10pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Engagement Notes",
+    "SchemaName": "mssh_CoEEngagementNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
  ]
