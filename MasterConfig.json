@@ -1,5 +1,5 @@
- [ 
-    {
+[
+  {
     "Category": "P-led",
     "Parent category": "Vision, Capability, Maturity across the Portfolio (15pts)",
     "Question": "Self Sufficient in delivering a business outcomes focused vision for customer projects?",
@@ -624,4 +624,415 @@
     "ResponseType": "Text",
     "Actual Score": ""
   },
- ]
+  {
+    "Category": "MS-led",
+    "Parent category": "Business Focused Program Vision (15pts)",
+    "Question": "Self Sufficient in delivering a business outcomes focused vision for customer projects?",
+    "Column Name for Views": "Business Outcomes",
+    "SchemaName": "mssh_MSLedBusinessOutcomes",
+    "ResponseType": "y/n/na",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Business Focused Program Vision (15pts)",
+    "Question": "Dependable in driving successful transformation?",
+    "Column Name for Views": "Driving Transformation",
+    "SchemaName": "mssh_MSLedDrivingTransformation",
+    "ResponseType": "y/n/na",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Business Focused Program Vision (15pts)",
+    "Question": "Drives Adoption of most product capabilities including Agents to maximize the value to customer?",
+    "Column Name for Views": "Articulating Vision",
+    "SchemaName": "mssh_MSLedArticulatingVision",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Business Focused Program Vision (15pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Program Vision Notes",
+    "SchemaName": "mssh_MSLedProgramVisionNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "FastTrack Engagement (15pts)",
+    "Question": "Is the partner engaging early and effectively with FastTrack SA, including attending workshops like the Blueprint Review within 30 days of project start?",
+    "Column Name for Views": "SBD Participation",
+    "SchemaName": "mssh_MSLedSBDParticipation",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "FastTrack Engagement (15pts)",
+    "Question": "Is the partner proactively engaging throughout the project, sharing designs and seeking FastTrack guidance?",
+    "Column Name for Views": "FastTrack Engagement",
+    "SchemaName": "mssh_MSLedFastTrackEngagement",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "FastTrack Engagement (15pts)",
+    "Question": "Is the partner acting promptly on FastTrack recommendations and revisiting topics when plans change?",
+    "Column Name for Views": "Follows Guidance",
+    "SchemaName": "mssh_MSLedFollowsGuidance",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "FastTrack Engagement (15pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Engagement  Notes",
+    "SchemaName": "mssh_MSLedEngagementNotes",
+    "ResponseType": "Text",
+    "Actual Score": ""
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Solution Approach (25pts)",
+    "Question": "Is the partner conducting a thorough discovery to maximize standard feature usage, with clear fit-gap analysis and mitigation plans to drive early value?",
+    "Column Name for Views": "Fit-Gap",
+    "SchemaName": "mssh_MSLedFit-Gap",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 10.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 10.0,
+      "A": 8.0,
+      "B": 6.0,
+      "C": 4.0,
+      "D": 2.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Solution Approach (25pts)",
+    "Question": "Is the solution designed for scalability, performance, and usability, positioning the customer to benefit from future product investments?",
+    "Column Name for Views": "Future Proofing",
+    "SchemaName": "mssh_MSLedFutureProofing",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 10.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 10.0,
+      "A": 8.0,
+      "B": 6.0,
+      "C": 4.0,
+      "D": 2.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Solution Approach (25pts)",
+    "Question": "Does the solution clearly outline licensing and capacity needs, with a transparent view of total cost of ownership, including pay-as-you-go and ongoing costs?",
+    "Column Name for Views": "Licensing",
+    "SchemaName": "mssh_MSLedLicensing",
+    "ResponseType": "y/n/na",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Solution Approach (25pts)",
+    "Question": "Current product knowledge[RT2]",
+    "Column Name for Views": "Product Expertise",
+    "SchemaName": "mssh_MSLedProductExpertise",
+    "ResponseType": "",
+    "Max Score": 10.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 10.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Solution Approach (25pts)",
+    "Question": "Notes:",
+    "Column Name for Views": "Approach Notes",
+    "SchemaName": "mssh_MSLedApproachNotes",
+    "ResponseType": NaN,
+    "Max Score": NaN,
+    "Actual Score": "",
+    "options": {
+      "Yes": 0.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Successful Execution (25pts)",
+    "Question": "Is the partner demonstrating strong project governance, with efficient backlog management, timely delivery, and effective handling of change requests?",
+    "Column Name for Views": "Governance",
+    "SchemaName": "mssh_MSLedGovernance",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Successful Execution (25pts)",
+    "Question": "Are project-level escalations well managed in alignment with the FastTrack Solution Architect?",
+    "Column Name for Views": "MS-Led Escalation Mgt\t",
+    "SchemaName": "mssh_MSLedEscalationMgt",
+    "ResponseType": "y/n/na",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Successful Execution (25pts)",
+    "Question": "Is the partner implementing a strong ALM approach with build automation, testing, and bi-monthly production releases?",
+    "Column Name for Views": "ALM",
+    "SchemaName": "mssh_MSLedALM",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 10.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 10.0,
+      "A": 8.0,
+      "B": 6.0,
+      "C": 4.0,
+      "D": 2.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Successful Execution (25pts)",
+    "Question": "Has the partner set up a reliable BAU support model that enables the customer to adapt to change and adopt new product capabilities for long-term success?",
+    "Column Name for Views": "Long Term Success",
+    "SchemaName": "mssh_MSLedLongTermSuccess",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 5.0,
+      "A": 4.0,
+      "B": 3.0,
+      "C": 2.0,
+      "D": 1.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Product Strategy Alignment (20pts)[RT3][AS4]",
+    "Question": "Notes:",
+    "Column Name for Views": "Execution Notes",
+    "SchemaName": "mssh_MSLedExecutionNotes",
+    "ResponseType": NaN,
+    "Max Score": NaN,
+    "Actual Score": "",
+    "options": {
+      "Yes": 0.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Product Strategy Alignment (20pts)[RT3][AS4]",
+    "Question": "Partner is up-to-speed with the latest product news",
+    "Column Name for Views": "Product News",
+    "SchemaName": "mssh_MSLedProductNews",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 10.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 10.0,
+      "A": 8.0,
+      "B": 6.0,
+      "C": 4.0,
+      "D": 2.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Product Strategy Alignment (20pts)[RT3][AS4]",
+    "Question": "Partner is providing relevant (product) feedback",
+    "Column Name for Views": "Product Feedback",
+    "SchemaName": "mssh_MSLedProductFeedback",
+    "ResponseType": "Qualitative Choice",
+    "Max Score": 10.0,
+    "Actual Score": "",
+    "options": {
+      "A+": 10.0,
+      "A": 8.0,
+      "B": 6.0,
+      "C": 4.0,
+      "D": 2.0,
+      "E": 0.0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Product Strategy Alignment (20pts)[RT3][AS4]",
+    "Question": "Up to date on the Product offerings and adopting the latest in Projects? ",
+    "Column Name for Views": "Current Expertise",
+    "SchemaName": "mssh_MSLedCurrentExpertise",
+    "ResponseType": "y/n/na",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Product Strategy Alignment (20pts)[RT3][AS4]",
+    "Question": "Aligns on Product Change Management, Deprecations, Licensing enforcements etc?",
+    "Column Name for Views": "Aligned to Product",
+    "SchemaName": "mssh_MSLedAlignedtoProduct",
+    "ResponseType": "y/n/na",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Product Strategy Alignment (20pts)[RT3][AS4]",
+    "Question": "Adoption of 1st Party AI agents /Custom MCS Agents in projects? ",
+    "Column Name for Views": "AI Adoption",
+    "SchemaName": "mssh_MSLedAIAdoption",
+    "ResponseType": "y/n/na",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Product Strategy Alignment (20pts)[RT3][AS4]",
+    "Question": "Participation in Product Preview Programs?  ",
+    "Column Name for Views": "Previews",
+    "SchemaName": "mssh_MSLedPreviews",
+    "ResponseType": "y/n/na",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "Product Strategy Alignment (20pts)[RT3][AS4]",
+    "Question": "Articulates product vision and capabilities clearly",
+    "Column Name for Views": NaN,
+    "SchemaName": "mssh_MSLed",
+    "ResponseType": "",
+    "Max Score": 5.0,
+    "Actual Score": "",
+    "options": {
+      "Yes": 5.0,
+      "No": 0,
+      "NA": 0
+    }
+  },
+  {
+    "Category": "MS-led",
+    "Parent category": "[RT1]Moved from strategy as it falls nicely in vision",
+    "Question": "Notes:",
+    "Column Name for Views": "Product Notes",
+    "SchemaName": "mssh_MSLedProductNotes",
+    "ResponseType": NaN,
+    "Max Score": NaN,
+    "Actual Score": "",
+    "options": {
+      "Yes": 0.0,
+      "No": 0,
+      "NA": 0
+    }
+  }
+]
