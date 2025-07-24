@@ -1,9 +1,3 @@
-[
-  "featureFlags": {
-  "EnablePled": false,
-  "EnableCoe": true
-}
-
   {
     "Category": "P-led",
     "Parent category": "Vision, Capability, Maturity across the Portfolio (15pts)",
